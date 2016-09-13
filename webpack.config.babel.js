@@ -36,11 +36,11 @@ const base = {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
       {test: /\.css$/, loader: 'style!css?sourceMap&modules&localIdentName=[name]__[local]___[hash:base64:5]'}
-    ]
+    ],
   },
   resolve: {
-    root: path.resolve('./app')
-  }
+    root: path.resolve('./app'),
+  },
 }
 
 const developmentConfig = {
