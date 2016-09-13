@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
 const MainContainer = React.createClass({
-    render() {
-        return (
-            <p>Hello World, from container</p>
-        );
-    }
-});
+  render () {
+    return (
+      <p>Hello World, from container</p>
+    )
+  }
+})
 
-export default MainContainer;
+export default MainContainer
 
