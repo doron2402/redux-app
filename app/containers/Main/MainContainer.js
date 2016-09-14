@@ -1,10 +1,16 @@
 import React from 'react'
-import { bold } from './style.css'
+import { bold, container, innerContainer } from './styles.css'
+import { Navigation } from 'components'
 
 const MainContainer = React.createClass({
   render () {
     return (
-      <p className={bold}>{'Hello World, from Doron'}</p>
+      <div className={container}>
+        <Navigation isAuthed={true} />
+        <div className={innerContainer}>
+          {this.props.children}
+        </div>
+      </div>
     )
   },
 })

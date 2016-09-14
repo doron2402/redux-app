@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #5f5f5f;
+}
+
+.centeredContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.largeHeader {
+  color: #fa90e2;
+  font-weight: 100;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.subHeader {
+  /*color: #4a90e2;*/
+  color: #fa90e2;
+  font-weight: 100;
+  font-size: 35px;
+  line-height: 55px;
+}

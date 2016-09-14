@@ -39,7 +39,7 @@ const base = {
     ],
   },
   resolve: {
-    root: path.resolve('./app'),
+    root: path.resolve('./app'), // This will allow us import files without ../../
   },
 }
 
